@@ -61,8 +61,8 @@ Keeping in mind the "display: none" technique for pictures will be useful in the
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Gwenaëlle Laffont](https://pandacea12.github.io/Project-Repository/)
+- Frontend Mentor - [Pandacea12](https://www.frontendmentor.io/profile/Pandacea12)
 
 
 ## Acknowledgments
