@@ -35,7 +35,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+For some reason, while there is no problem in VSCode or Chrome, the styles are completely broken on GitHub.
+
+[html](https://github.com/Pandacea12/Project-Repository/blob/main/Pages/product-preview-card-component-main/product-preview-card-component.html)
+[css](https://github.com/Pandacea12/Project-Repository/blob/main/styles/product-preview-card-component.css)
+
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -61,7 +65,7 @@ Keeping in mind the "display: none" technique for pictures will be useful in the
 
 ## Author
 
-- Website - [Gwenaëlle Laffont](https://pandacea12.github.io/Project-Repository/)
+- Website - [Gwenaëlle Laffont](https://pandacea12.github.io/Project-Repository/)(Doesn't currently work)
 - Frontend Mentor - [Pandacea12](https://www.frontendmentor.io/profile/Pandacea12)
 
 
