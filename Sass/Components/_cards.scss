@@ -1,0 +1,45 @@
+@use 'colors.scss';
+
+#project-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 20px;
+    background-color: colors.$dustGreen;
+}
+.card{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 150px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/cardback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    box-shadow: colors.$ashBlue 0px 1px 3px, colors.$ashBlue 0px 1px 2px;
+    transition: all 0.25s ease;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: colors.$ashWhite 0px 7px 29px 0px;
+        cursor: pointer;
+    }
+    &:active {
+        box-shadow: colors.$pureWhite 0px 7px 29px 0px;
+    }
+}
+
+/* Specific cards*/
+
+#ppcm {
+    background: url('/images/ppc-preview.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

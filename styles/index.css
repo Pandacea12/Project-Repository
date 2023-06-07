@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Index Page */
+/* Index Page End*/
+/* Product Preview Card */
+/* Product Preview Card End*/
+#project-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 20px;
+  background-color: rgba(12, 23, 21, 0.5);
+}
+
+.card {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 150px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/images/cardback.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: rgba(133, 141, 166, 0.5) 0px 1px 3px, rgba(133, 141, 166, 0.5) 0px 1px 2px;
+  transition: all 0.25s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: rgb(245, 245, 245) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+.card:active {
+  box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+}
+
+/* Specific cards*/
+#ppcm {
+  background: url("/images/ppc-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#back {
+  z-index: 3;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  background-color: rgb(245, 245, 245);
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: rgba(133, 141, 166, 0.5) 0px 1px 3px, rgba(133, 141, 166, 0.5) 0px 1px 2px;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  color: black;
+}
+#back:hover {
+  box-shadow: rgb(245, 245, 245) 0px 7px 29px 0px;
+  cursor: pointer;
+}
+#back:active {
+  box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+}
+
+body {
+  background: url("/images/Mountains.png");
+  overflow-x: hidden;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+}
+
+#projects {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

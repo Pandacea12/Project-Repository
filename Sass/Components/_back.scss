@@ -1,0 +1,23 @@
+@use './colors';
+
+#back {
+    z-index: 3;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    background-color: colors.$ashWhite;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: colors.$ashBlue 0px 1px 3px, colors.$ashBlue 0px 1px 2px;
+    transition: all 0.25s ease;
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        box-shadow: colors.$ashWhite 0px 7px 29px 0px;
+        cursor: pointer;
+    }
+    &:active {
+        box-shadow: colors.$pureWhite 0px 7px 29px 0px;
+    }
+}
